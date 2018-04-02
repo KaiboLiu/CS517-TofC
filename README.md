@@ -1,2 +1,1 @@
-# CS517-TofC
-Theory of Computation
+# CS517 - Theory of Computation
