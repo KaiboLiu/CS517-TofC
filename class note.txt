@@ -1,0 +1,25 @@
+
+04/04/2018 Wed
+In mathematics, the power set (or powerset) of any set S is the set of all subsets of S, including the empty set and S itself, variously denoted as P(S)
+
+Cantor's theorem
+edge case: 
+X=empty: |X|=0
+P(X)={empty}: |P(X)|=1
+
+Throrem: no surjective function f: X -> P(X)
+One-line proof:....
+detailed: ↘
+idea: take f: X->P(X)
+each f(x) in P(X) => f(x) is subset of X
+write f as table
+f(x1)={x2,x3,...}
+f(x2)=empty
+f(x3)={x1}
+
+is xj in f(xi)?
+
+Obs: f is onto f
+every sequence of 0/1 appears somewhere as a Row in this table
+Claim: complemented diagonal disagrees with every Row of table
+disagrees with nth row in (at least) nth position
